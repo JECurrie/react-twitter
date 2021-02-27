@@ -19,7 +19,7 @@ const App = () => {
           author="Sam"
           timeAgo="Today at 4:45PM"
           content="Nice blog post"
-          avatar={faker.image.avatar()}
+          avatar={faker.image.image()}
         />
       </ApprovalCard>
 
@@ -28,7 +28,7 @@ const App = () => {
           author="Alex"
           timeAgo="Today at 2:00AM"
           content="I like the subject"
-          avatar={faker.image.avatar()}
+          avatar={faker.image.image()}
         />
       </ApprovalCard>
 
@@ -37,7 +37,7 @@ const App = () => {
           author="Jane"
           timeAgo="Yesterday at 5:00PM"
           content="I like the writing"
-          avatar={faker.image.avatar()}
+          avatar={faker.image.image()}
         />
       </ApprovalCard>
     </div>
